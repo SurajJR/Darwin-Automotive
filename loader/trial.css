@@ -1,0 +1,46 @@
+/* BOUNCE */
+body{
+  /* background-color: #dedede; */
+  animation-name: blur;
+}
+.bounce{
+  width: 20em;
+  margin: 20em auto;
+  /* align-content: center; */
+  text-align: center;
+}
+
+.bounce > span{
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: black;
+  display: inline-block;
+  animation: bounce_effect 1.5s ease-in-out 3 both;
+  /* position: relative; */
+}
+
+.b1, .b2, .b3{
+  margin: .2em;
+}
+.bounce .b1{
+  animation-delay: -0.36s;
+  background-color: #ff3a33;
+}
+
+.bounce .b2{
+  animation-delay: -0.24s;
+  background-color: #4681f0;
+}
+.bounce .b3
+{
+  background-color: #ffffff;
+}
+@keyframes bounce_effect {
+  0%, 80%, 100%{
+    transform:  scale(0);
+  }
+  50%{
+    transform: scale(1);
+  }
+}

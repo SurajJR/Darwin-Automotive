@@ -1,0 +1,23 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+img{
+	float:left;
+	padding: 0;
+	margin: 0;
+	height: 100px;
+	width: 100px;
+}
+ul{
+	display: inline-block;
+}
+
+li{
+	color: white;
+	text-decoration: none;
+	margin: 0 5%;
+	padding: 0 35%;
+
+}
