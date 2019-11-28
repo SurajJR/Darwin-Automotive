@@ -1,0 +1,78 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #000;
+
+}
+@keyframes mymove {
+  0%   {opacity: 0}
+  100% {opacity: 1}
+}
+@keyframes mymove1 {
+  from {opacity: 0;top: 300px;}
+  to {opacity: 1;top: 0px;}
+}
+.container{
+	text-align: center;
+	font-family: sans-serif; 
+	color: white;
+	letter-spacing: 10px
+	margin:0px;
+	padding-top: 5%; 
+	word-spacing: 20px;
+	animation: mymove1 5s;
+	 animation-fill-mode: forwards;
+}
+.logo{
+	width:auto;
+	height:auto;
+	animation: mymove 10s;
+
+}
+.text{
+	font-family: fantasy;
+	letter-spacing: 45px;
+	color: white;
+	text-align: center;
+	margin:0px;
+	padding-top: 5%;
+	
+
+}
+.div1{
+	margin-top: 5%;
+	padding-top: 5%;
+}
+.btn{
+	height: 50px;
+	width: 150px;
+	font-family: sans-serif;
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+	position: relative;
+	bottom: 10%;
+	text-decoration: none;
+	background-color: black;
+}
+a{
+	padding: 10px;
+	margin: 0 45%;
+}
+a:hover{
+	border-bottom: 2px solid white;
+
+}
+@media only screen and (max-width: 1800px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  a{
+  	margin: 0;
+  }
+  .text{
+  	padding-left: 5%;
+  }
+}
